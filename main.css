@@ -1,5 +1,6 @@
-p {
+body {
   font-family: Georgia, "Times New Roman", Times, serif;
+  color: #280D8D;
 }
 .justify {
   text-align: justify;
@@ -7,11 +8,29 @@ p {
 }
 img {
   max-width: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 .red_outline {
-  border: 3px solid red;
+  border: 3px solid #CC3700;
   padding: 3px 3px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+a {
+  text-decoration: none;
+  color: firebrick;
+}
+a:hover {
+  text-decoration: underline;
+  color: green;
+}
+.hidden {
+  display: none;
+}
+.min_input {
+  min-width: 250px;
+}
+.boxtitle {
+  font-size: 1em;
+  font-style: bold;
+  padding: .5em;
 }
